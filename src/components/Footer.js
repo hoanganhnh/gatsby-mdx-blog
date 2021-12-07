@@ -25,13 +25,25 @@ function Footer() {
         <FooterWrapper>
             <FooterSocialWrapper>
                 <FooterSocialIcons>
-                    <a href='https://facebook.com/' target='_blank'>
+                    <a
+                        href='https://facebook.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
                         <img src={data.facebook.publicURL} alt='facebook' />
                     </a>
-                    <a href='https://facebook.com/' target='_blank'>
+                    <a
+                        href='https://facebook.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
                         <img src={data.instagram.publicURL} alt='instagram' />
                     </a>
-                    <a href='https://facebook.com/' target='_blank'>
+                    <a
+                        href='https://facebook.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
                         <img src={data.linked.publicURL} alt='linked' />
                     </a>
                 </FooterSocialIcons>

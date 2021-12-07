@@ -1,7 +1,11 @@
 import React from 'react';
 
-import { Container } from '../components';
+import { Container, FeatureImage } from '../components';
 
 export default function App() {
-    return <Container></Container>;
+    return (
+        <Container>
+            <FeatureImage />
+        </Container>
+    );
 }
