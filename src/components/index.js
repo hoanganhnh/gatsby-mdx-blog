@@ -7,3 +7,4 @@ export { default as Pagination } from './Pagination';
 export { default as Post } from './Post';
 export { default as Table } from './Table';
 export { default as Code } from './Code';
+export { default as Seo } from './Seo';

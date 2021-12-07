@@ -6,7 +6,18 @@
 
 module.exports = {
     /* Your site config here */
+    siteMetadata: {
+        title: 'My mdx blog',
+        description: 'A simple page built with Gatsby and MDX',
+        url: 'https://github.com/',
+        image: '/main.jpg',
+        twitterUsername: '@anhnh',
+        author: 'hoanganh',
+    },
     plugins: [
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-styled-components`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -28,8 +39,6 @@ module.exports = {
                 path: `${__dirname}/src/images`,
             },
         },
-        `gatsby-plugin-sharp`,
-        `gatsby-transformer-sharp`,
         {
             resolve: `gatsby-plugin-mdx`,
             extentions: [`.md`, `.mdx`],
@@ -49,6 +58,5 @@ module.exports = {
                 display: 'swap',
             },
         },
-        `gatsby-plugin-styled-components`,
     ],
 };
