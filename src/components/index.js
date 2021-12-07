@@ -5,3 +5,4 @@ export { default as Content } from './Content';
 export { default as ContentCard } from './ContentCard';
 export { default as Pagination } from './Pagination';
 export { default as Post } from './Post';
+export { default as Table } from './Table';
