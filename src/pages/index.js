@@ -1,5 +1,11 @@
 import React from 'react';
 
-export default function Home() {
-    return <div>Hello world!</div>;
+import { Container } from '../components';
+
+export default function App() {
+    return (
+        <Container>
+            <h1>Hello world!</h1>
+        </Container>
+    );
 }
