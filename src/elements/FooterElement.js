@@ -22,7 +22,6 @@ export const FooterSocialWrapper = styled.div`
     & p {
         text-align: center;
         flex: 0 0 100%;
-        margin-top: 8px;
         pointer-events: none;
         user-select: none;
     }

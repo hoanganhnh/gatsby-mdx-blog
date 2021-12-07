@@ -5,6 +5,7 @@ import {
     FooterWrapper,
     FooterSocialWrapper,
     FooterSocialIcons,
+    P,
 } from '../elements';
 
 function Footer() {
@@ -47,7 +48,9 @@ function Footer() {
                         <img src={data.linked.publicURL} alt='linked' />
                     </a>
                 </FooterSocialIcons>
-                <p>Copyright ©2021</p>
+                <P size='xSmall' color='dark3' margin='8px 0 0 0'>
+                    Copyright ©2021
+                </P>
             </FooterSocialWrapper>
         </FooterWrapper>
     );
