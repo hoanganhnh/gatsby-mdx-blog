@@ -4,7 +4,8 @@ export const ContentWrapper = styled.div`
     grid-column: 4 / span 8;
     grid-row: 3 / span 5;
     background-color: ${(props) => props.theme.colors.light2};
-    padding: ${(props) => `${props.theme.spacings.xLagre} ${spacings.xxLagre}`};
+    padding: ${(props) =>
+        `${props.theme.spacings.xLagre} ${props.theme.spacings.xxLagre}`};
     box-shadow: ${(props) => props.theme.shadow1};
     z-index: 10;
 

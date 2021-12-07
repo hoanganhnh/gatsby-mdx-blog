@@ -4,3 +4,5 @@ export * from './FooterElement';
 export * from './ImageElement';
 export * from './ContentElement';
 export * from './TypographyElement';
+export * from './CardElement';
+export * from './ButtonElement';
